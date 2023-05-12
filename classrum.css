@@ -1,0 +1,193 @@
+header {
+    height: 64px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #818181;
+
+}
+body{
+    background-color:transparent ;
+    width: auto;
+    height: auto;
+}
+.main{
+    width: auto;
+    height: auto;
+}
+.icon {
+    height: 24px;
+    width: 24px
+}
+
+.logo-2 {
+    height: 94px;
+    width: 94px;
+}
+
+.palabra {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.logo {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adicionales {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opciones {
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boton {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    color: #818181;
+}
+
+
+.clases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 30px ;
+    text-overflow: center;
+}
+
+
+.carta:hover {
+    box-shadow: 3px 3px 6px #D8D8D8;    
+}
+.carta {
+    width: 300px;
+    height: 294px;
+    background: white;
+    border-radius: 10px;
+    border-width: 1px solid;
+    border: 1px solid #ccc;
+}
+
+
+
+.carta1 {
+    width: 300px;
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: black;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.carta1 .course {
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    text-align: left;
+
+}
+
+.carta1 .course .title {
+    width: 228px;
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    padding-left: 12px;
+}
+
+.teacher-name {
+    color: #dbdbdb;
+    display: block;
+    text-overflow: ellipsis;
+    width: 210px;
+    padding-left: 12px;
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+.carta2 {
+    width: 300px;
+    height: 137px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.carta-2-espacio {
+    padding: 12px 16px 16px;
+}
+
+.descriptcion{
+    color: #9c9c9c;
+    font-size: 13px;
+}
+.carta2 .photo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: -3.09375rem;
+}
+
+.carta2 .card-2-container {
+    margin-top: 0px;
+    font-size: 13px;
+    color: #cdd4db;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.carta3 {
+    width: 300px;
+    height: 57px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.imagen1{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+.imagen2{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
